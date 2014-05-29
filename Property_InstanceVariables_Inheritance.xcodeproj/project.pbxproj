@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6244624C1936E77300895F2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6244624B1936E77300895F2D /* Foundation.framework */; };
+		6244624E1936E77300895F2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6244624D1936E77300895F2D /* CoreGraphics.framework */; };
+		624462501936E77300895F2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6244624F1936E77300895F2D /* UIKit.framework */; };
+		624462561936E77300895F2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 624462541936E77300895F2D /* InfoPlist.strings */; };
+		624462581936E77300895F2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 624462571936E77300895F2D /* main.m */; };
+		6244625C1936E77300895F2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6244625B1936E77300895F2D /* AppDelegate.m */; };
+		6244625E1936E77300895F2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6244625D1936E77300895F2D /* Images.xcassets */; };
+		624462651936E77300895F2D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624462641936E77300895F2D /* XCTest.framework */; };
+		624462661936E77300895F2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6244624B1936E77300895F2D /* Foundation.framework */; };
+		624462671936E77300895F2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6244624F1936E77300895F2D /* UIKit.framework */; };
+		6244626F1936E77300895F2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6244626D1936E77300895F2D /* InfoPlist.strings */; };
+		624462711936E77300895F2D /* Property_InstanceVariables_InheritanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 624462701936E77300895F2D /* Property_InstanceVariables_InheritanceTests.m */; };
+		6244627F1936E7B400895F2D /* ClassA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6244627E1936E7B400895F2D /* ClassA1.m */; };
+		624462821936E7E300895F2D /* ClassB1.m in Sources */ = {isa = PBXBuildFile; fileRef = 624462811936E7E300895F2D /* ClassB1.m */; };
+		624462851936E7F500895F2D /* ClassB2.m in Sources */ = {isa = PBXBuildFile; fileRef = 624462841936E7F500895F2D /* ClassB2.m */; };
+		624462881936E80900895F2D /* ClassB3.m in Sources */ = {isa = PBXBuildFile; fileRef = 624462871936E80900895F2D /* ClassB3.m */; };
+		6244628B1936E92300895F2D /* ClassA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6244628A1936E92300895F2D /* ClassA2.m */; };
+		6244628E1936E93B00895F2D /* ClassA3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6244628D1936E93B00895F2D /* ClassA3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		624462681936E77300895F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624462401936E77300895F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624462471936E77300895F2D;
+			remoteInfo = Property_InstanceVariables_Inheritance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		624462481936E77300895F2D /* Property_InstanceVariables_Inheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Property_InstanceVariables_Inheritance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6244624B1936E77300895F2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6244624D1936E77300895F2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6244624F1936E77300895F2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		624462531936E77300895F2D /* Property_InstanceVariables_Inheritance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property_InstanceVariables_Inheritance-Info.plist"; sourceTree = "<group>"; };
+		624462551936E77300895F2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		624462571936E77300895F2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		624462591936E77300895F2D /* Property_InstanceVariables_Inheritance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Property_InstanceVariables_Inheritance-Prefix.pch"; sourceTree = "<group>"; };
+		6244625A1936E77300895F2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6244625B1936E77300895F2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6244625D1936E77300895F2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		624462631936E77300895F2D /* Property_InstanceVariables_InheritanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Property_InstanceVariables_InheritanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		624462641936E77300895F2D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6244626C1936E77300895F2D /* Property_InstanceVariables_InheritanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property_InstanceVariables_InheritanceTests-Info.plist"; sourceTree = "<group>"; };
+		6244626E1936E77300895F2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		624462701936E77300895F2D /* Property_InstanceVariables_InheritanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Property_InstanceVariables_InheritanceTests.m; sourceTree = "<group>"; };
+		6244627D1936E7B400895F2D /* ClassA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassA1.h; path = ../ClassA1.h; sourceTree = "<group>"; };
+		6244627E1936E7B400895F2D /* ClassA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassA1.m; path = ../ClassA1.m; sourceTree = "<group>"; };
+		624462801936E7E300895F2D /* ClassB1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB1.h; sourceTree = "<group>"; };
+		624462811936E7E300895F2D /* ClassB1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB1.m; sourceTree = "<group>"; };
+		624462831936E7F500895F2D /* ClassB2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB2.h; sourceTree = "<group>"; };
+		624462841936E7F500895F2D /* ClassB2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB2.m; sourceTree = "<group>"; };
+		624462861936E80900895F2D /* ClassB3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB3.h; sourceTree = "<group>"; };
+		624462871936E80900895F2D /* ClassB3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB3.m; sourceTree = "<group>"; };
+		624462891936E92300895F2D /* ClassA2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA2.h; sourceTree = "<group>"; };
+		6244628A1936E92300895F2D /* ClassA2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA2.m; sourceTree = "<group>"; };
+		6244628C1936E93B00895F2D /* ClassA3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA3.h; sourceTree = "<group>"; };
+		6244628D1936E93B00895F2D /* ClassA3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA3.m; sourceTree = "<group>"; };
+		6244628F1936EA7100895F2D /* ClassA3_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA3_Protected.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		624462451936E77300895F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6244624E1936E77300895F2D /* CoreGraphics.framework in Frameworks */,
+				624462501936E77300895F2D /* UIKit.framework in Frameworks */,
+				6244624C1936E77300895F2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624462601936E77300895F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624462651936E77300895F2D /* XCTest.framework in Frameworks */,
+				624462671936E77300895F2D /* UIKit.framework in Frameworks */,
+				624462661936E77300895F2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6244623F1936E77300895F2D = {
+			isa = PBXGroup;
+			children = (
+				624462511936E77300895F2D /* Property_InstanceVariables_Inheritance */,
+				6244626A1936E77300895F2D /* Property_InstanceVariables_InheritanceTests */,
+				6244624A1936E77300895F2D /* Frameworks */,
+				624462491936E77300895F2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		624462491936E77300895F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				624462481936E77300895F2D /* Property_InstanceVariables_Inheritance.app */,
+				624462631936E77300895F2D /* Property_InstanceVariables_InheritanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6244624A1936E77300895F2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6244624B1936E77300895F2D /* Foundation.framework */,
+				6244624D1936E77300895F2D /* CoreGraphics.framework */,
+				6244624F1936E77300895F2D /* UIKit.framework */,
+				624462641936E77300895F2D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		624462511936E77300895F2D /* Property_InstanceVariables_Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				6244627A1936E79B00895F2D /* Solution1 */,
+				6244627B1936E79B00895F2D /* Solution2 */,
+				6244627C1936E79B00895F2D /* Solution3 */,
+				6244625A1936E77300895F2D /* AppDelegate.h */,
+				6244625B1936E77300895F2D /* AppDelegate.m */,
+				6244625D1936E77300895F2D /* Images.xcassets */,
+				624462521936E77300895F2D /* Supporting Files */,
+			);
+			path = Property_InstanceVariables_Inheritance;
+			sourceTree = "<group>";
+		};
+		624462521936E77300895F2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				624462531936E77300895F2D /* Property_InstanceVariables_Inheritance-Info.plist */,
+				624462541936E77300895F2D /* InfoPlist.strings */,
+				624462571936E77300895F2D /* main.m */,
+				624462591936E77300895F2D /* Property_InstanceVariables_Inheritance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6244626A1936E77300895F2D /* Property_InstanceVariables_InheritanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				624462701936E77300895F2D /* Property_InstanceVariables_InheritanceTests.m */,
+				6244626B1936E77300895F2D /* Supporting Files */,
+			);
+			path = Property_InstanceVariables_InheritanceTests;
+			sourceTree = "<group>";
+		};
+		6244626B1936E77300895F2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6244626C1936E77300895F2D /* Property_InstanceVariables_InheritanceTests-Info.plist */,
+				6244626D1936E77300895F2D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6244627A1936E79B00895F2D /* Solution1 */ = {
+			isa = PBXGroup;
+			children = (
+				6244627D1936E7B400895F2D /* ClassA1.h */,
+				6244627E1936E7B400895F2D /* ClassA1.m */,
+				624462801936E7E300895F2D /* ClassB1.h */,
+				624462811936E7E300895F2D /* ClassB1.m */,
+			);
+			path = Solution1;
+			sourceTree = "<group>";
+		};
+		6244627B1936E79B00895F2D /* Solution2 */ = {
+			isa = PBXGroup;
+			children = (
+				624462891936E92300895F2D /* ClassA2.h */,
+				6244628A1936E92300895F2D /* ClassA2.m */,
+				624462831936E7F500895F2D /* ClassB2.h */,
+				624462841936E7F500895F2D /* ClassB2.m */,
+			);
+			path = Solution2;
+			sourceTree = "<group>";
+		};
+		6244627C1936E79B00895F2D /* Solution3 */ = {
+			isa = PBXGroup;
+			children = (
+				6244628F1936EA7100895F2D /* ClassA3_Protected.h */,
+				6244628C1936E93B00895F2D /* ClassA3.h */,
+				6244628D1936E93B00895F2D /* ClassA3.m */,
+				624462861936E80900895F2D /* ClassB3.h */,
+				624462871936E80900895F2D /* ClassB3.m */,
+			);
+			path = Solution3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		624462471936E77300895F2D /* Property_InstanceVariables_Inheritance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624462741936E77300895F2D /* Build configuration list for PBXNativeTarget "Property_InstanceVariables_Inheritance" */;
+			buildPhases = (
+				624462441936E77300895F2D /* Sources */,
+				624462451936E77300895F2D /* Frameworks */,
+				624462461936E77300895F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Property_InstanceVariables_Inheritance;
+			productName = Property_InstanceVariables_Inheritance;
+			productReference = 624462481936E77300895F2D /* Property_InstanceVariables_Inheritance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		624462621936E77300895F2D /* Property_InstanceVariables_InheritanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624462771936E77300895F2D /* Build configuration list for PBXNativeTarget "Property_InstanceVariables_InheritanceTests" */;
+			buildPhases = (
+				6244625F1936E77300895F2D /* Sources */,
+				624462601936E77300895F2D /* Frameworks */,
+				624462611936E77300895F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624462691936E77300895F2D /* PBXTargetDependency */,
+			);
+			name = Property_InstanceVariables_InheritanceTests;
+			productName = Property_InstanceVariables_InheritanceTests;
+			productReference = 624462631936E77300895F2D /* Property_InstanceVariables_InheritanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		624462401936E77300895F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BenjaminEncz;
+				TargetAttributes = {
+					624462621936E77300895F2D = {
+						TestTargetID = 624462471936E77300895F2D;
+					};
+				};
+			};
+			buildConfigurationList = 624462431936E77300895F2D /* Build configuration list for PBXProject "Property_InstanceVariables_Inheritance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6244623F1936E77300895F2D;
+			productRefGroup = 624462491936E77300895F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				624462471936E77300895F2D /* Property_InstanceVariables_Inheritance */,
+				624462621936E77300895F2D /* Property_InstanceVariables_InheritanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		624462461936E77300895F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624462561936E77300895F2D /* InfoPlist.strings in Resources */,
+				6244625E1936E77300895F2D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624462611936E77300895F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6244626F1936E77300895F2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624462441936E77300895F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6244628B1936E92300895F2D /* ClassA2.m in Sources */,
+				6244625C1936E77300895F2D /* AppDelegate.m in Sources */,
+				624462881936E80900895F2D /* ClassB3.m in Sources */,
+				624462821936E7E300895F2D /* ClassB1.m in Sources */,
+				624462851936E7F500895F2D /* ClassB2.m in Sources */,
+				6244627F1936E7B400895F2D /* ClassA1.m in Sources */,
+				6244628E1936E93B00895F2D /* ClassA3.m in Sources */,
+				624462581936E77300895F2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6244625F1936E77300895F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624462711936E77300895F2D /* Property_InstanceVariables_InheritanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		624462691936E77300895F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624462471936E77300895F2D /* Property_InstanceVariables_Inheritance */;
+			targetProxy = 624462681936E77300895F2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		624462541936E77300895F2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624462551936E77300895F2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6244626D1936E77300895F2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6244626E1936E77300895F2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		624462721936E77300895F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		624462731936E77300895F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		624462751936E77300895F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Property_InstanceVariables_Inheritance/Property_InstanceVariables_Inheritance-Prefix.pch";
+				INFOPLIST_FILE = "Property_InstanceVariables_Inheritance/Property_InstanceVariables_Inheritance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		624462761936E77300895F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Property_InstanceVariables_Inheritance/Property_InstanceVariables_Inheritance-Prefix.pch";
+				INFOPLIST_FILE = "Property_InstanceVariables_Inheritance/Property_InstanceVariables_Inheritance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		624462781936E77300895F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Property_InstanceVariables_Inheritance.app/Property_InstanceVariables_Inheritance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Property_InstanceVariables_Inheritance/Property_InstanceVariables_Inheritance-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Property_InstanceVariables_InheritanceTests/Property_InstanceVariables_InheritanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		624462791936E77300895F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Property_InstanceVariables_Inheritance.app/Property_InstanceVariables_Inheritance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Property_InstanceVariables_Inheritance/Property_InstanceVariables_Inheritance-Prefix.pch";
+				INFOPLIST_FILE = "Property_InstanceVariables_InheritanceTests/Property_InstanceVariables_InheritanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		624462431936E77300895F2D /* Build configuration list for PBXProject "Property_InstanceVariables_Inheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624462721936E77300895F2D /* Debug */,
+				624462731936E77300895F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624462741936E77300895F2D /* Build configuration list for PBXNativeTarget "Property_InstanceVariables_Inheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624462751936E77300895F2D /* Debug */,
+				624462761936E77300895F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		624462771936E77300895F2D /* Build configuration list for PBXNativeTarget "Property_InstanceVariables_InheritanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624462781936E77300895F2D /* Debug */,
+				624462791936E77300895F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 624462401936E77300895F2D /* Project object */;
+}
